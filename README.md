@@ -6,8 +6,11 @@ from random import randint
 
 
 a = randint(0,9)
+print(a)
 num1 = L[a]
+print(num1)
 L2 = L.remove(num1)
+print(L2)
 
 b = randint(0,8)
 num2 = L2[b]
