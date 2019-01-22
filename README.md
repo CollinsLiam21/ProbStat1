@@ -9,12 +9,14 @@ a = randint(0,9)
 print(a)
 num1 = L[a]
 print(num1)
-L2 = L.remove(num1)
+L2 = L
+L2.remove(num1)
 print(L2)
 
 b = randint(0,8)
 num2 = L2[b]
-L3 = L2.remove(num2)
+L3 = L2 
+L3.remove(num2)
 
 c = randint(0,7)
 num3 = L3[c]
