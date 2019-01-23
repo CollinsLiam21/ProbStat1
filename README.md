@@ -18,4 +18,5 @@ L3.remove(num2)
 c = randint(0,7)
 num3 = L3[c]
 
+print(num1,num2,num3)
 print('Average = ', (num1+num2+num3)/3)
